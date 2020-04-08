@@ -1,0 +1,8 @@
+server:
+  port: 8082
+eureka:
+  instance:
+    hostname: local
+  client:
+    service-url:
+      defaultZone: http://172.22.20.200:8080/eureka/
